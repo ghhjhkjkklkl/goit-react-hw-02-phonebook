@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './Contact.module.css';
 
-export default Contact;
-
 Contact.propTypes = {
   name: PropTypes.string.isRequired,
   number: PropTypes.string.isRequired,
@@ -20,3 +18,5 @@ function Contact({ name, number, onClick }) {
     </>
   );
 }
+
+export default Contact;
